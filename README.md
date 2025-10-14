@@ -1,23 +1,8 @@
 # Graph Attention Network (GAT) Implementation
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.8.0-red.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 A complete implementation of **Graph Attention Networks (GAT)** from scratch using PyTorch. This project demonstrates how attention mechanisms can be applied to graph-structured data for node classification tasks.
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
-- [Results](#results)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Optimization Techniques](#optimization-techniques)
-- [References](#references)
 
 ## 🎯 Overview
 
@@ -283,34 +268,6 @@ class GAT(nn.Module):
 - When neighbor importance varies
 - Need for interpretable model decisions
 
-## 📚 References
-
-### Papers
-
-1. **Graph Attention Networks (GAT)**
-   - Veličković et al., ICLR 2018
-   - [Paper](https://arxiv.org/abs/1710.10903)
-
-2. **Attention Is All You Need**
-   - Vaswani et al., NeurIPS 2017
-   - [Paper](https://arxiv.org/abs/1706.03762)
-
-### Resources
-
-- [PyTorch Documentation](https://pytorch.org/docs/)
-- [NetworkX Documentation](https://networkx.org/documentation/)
-- [Graph Neural Networks Overview](https://distill.pub/2021/gnn-intro/)
-
-## 🎓 Learning Outcomes
-
-By exploring this project, you will understand:
-
-1. How attention mechanisms work on graphs
-2. Multi-head attention implementation
-3. Node classification on graph data
-4. Hyperparameter tuning for graph neural networks
-5. Visualization of attention weights
-6. Best practices for training GNNs
 
 ## 🛠️ Customization
 
@@ -351,39 +308,3 @@ The notebook includes:
 2. **Training Curves**: Loss and accuracy over epochs
 3. **Attention Heatmap**: Learned attention weights between nodes
 4. **Confusion Matrix**: Per-class performance analysis
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-
-- [ ] Add more datasets (Cora, Citeseer, PubMed)
-- [ ] Implement graph classification
-- [ ] Add edge features
-- [ ] Implement attention visualization for all heads
-- [ ] Add model checkpointing
-- [ ] Create command-line interface
-- [ ] Add unit tests
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-**Ishan Umayangana**
-- GitHub: [@Ishanumayangana](https://github.com/Ishanumayangana)
-- Repository: [Graph-attention-network-implementation](https://github.com/Ishanumayangana/Graph-attention-network-implementation)
-
-## 🙏 Acknowledgments
-
-- Original GAT paper authors (Veličković et al.)
-- PyTorch team for the excellent framework
-- NetworkX for graph manipulation tools
-
----
-
-⭐ **Star this repository** if you find it helpful!
-
-📧 **Questions?** Open an issue or reach out!
-
-🔗 **Share** with others interested in Graph Neural Networks!
