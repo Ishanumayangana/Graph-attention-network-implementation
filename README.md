@@ -51,17 +51,6 @@ numpy>=2.2.0
 matplotlib>=3.10.0
 networkx>=3.5
 ```
-
-## 📁 Project Structure
-
-```
-GAT_Creating/
-│
-├── GAT_Creating.ipynb          # Main Jupyter notebook with implementation
-├── README.md                   # This file
-└── requirements.txt            # Python dependencies (optional)
-```
-
 ## 🧠 How It Works
 
 ### Graph Attention Mechanism
@@ -138,20 +127,6 @@ Where `||` denotes concatenation and K is the number of heads.
 | **Test Accuracy** | **0%** | **100%** | **+100pp** |
 
 ## 💻 Usage
-
-### Quick Start
-
-1. Open the Jupyter notebook:
-```bash
-jupyter notebook GAT_Creating.ipynb
-```
-
-2. Run all cells sequentially to:
-   - Import dependencies
-   - Define GAT architecture
-   - Create synthetic graphs
-   - Train both models
-   - Visualize results
 
 ### Running the Original Model
 
